@@ -1,0 +1,154 @@
+body{
+	margin-top: -20px;
+}
+.green-title{
+	font-family: 'Khand', sans-serif;
+	color: #006837;
+	font-size: 2.5em;
+}
+h1{
+	padding-left: 5%;
+	padding-right: 5%;
+	font-family: 'Khand', sans-serif;
+	color:black;
+	text-align: center;
+	font-size: 4rem;
+	padding-top: 30px;
+}
+.page-notice{
+	font-family: 'Khand', sans-serif;
+	padding-left: 20%;
+	padding-right: 20%;
+	text-align: justify;
+	font-size: 2.3rem;
+	line-height: 1.5;
+	color: #6a6a6a;
+}
+ul.orden{
+	font-family: 'Khand', sans-serif;
+	font-size: 2.3rem;
+	line-height: 1.5;
+	color: #6a6a6a;
+	padding-left: 20%;
+	padding-right: 20%;
+	list-style-type: circle;
+	margin-left: 35px;
+}
+.reg-uvg {
+	list-style-type: decimal;
+	margin-left: 35px;	
+}
+.reg-uvg a{
+	text-decoration: underline;
+	color: gray;
+}
+
+.less-padding{
+	padding-left: 5%;
+	padding-right: 5%;
+}
+@media screen and (max-width: 768px) {
+	.page-notice{padding-left: 10px; padding-right: 10px; font-size: 2rem;}
+	h1{font-size: 3rem;}  
+}
+@media screen and (max-width: 1000px) {
+	.page-notice{padding-left: 8%; padding-right: 8%;} 
+	h1{font-size: 3.5rem;}  
+}
+.galeria{
+	width: 90%;
+	margin: auto;
+	list-style: none;
+	padding: 20px;
+	box-sizing:border-box;
+
+	display: flex;
+	flex-wrap:wrap;
+	justify-content:space-around;
+}
+
+.galeria li{
+	margin: 5px;	
+}
+
+.galeria img{
+	width: 350px;
+}
+
+
+/*Modal*/
+.modal-mine{
+	visibility: hidden;
+	opacity: 0;
+}
+.modal-mine:target {
+	visibility: visible;
+	opacity: 1;
+	transition:all 0.5s;
+	position: fixed;
+	background: rgba(0,0,0, .8);
+	top: 0;
+	width: 100%;
+	height: 100%;
+}
+
+.modal-mine h3{
+	padding-top: 50px;
+	color: white;
+	font-size: 30px;
+	text-align: center;
+	margin: 15px 0;
+}
+
+.imagen{
+	margin-top: 5%;
+	width: 100%;
+	display: flex;
+	justify-content:center;
+	align-items:center;
+}
+
+.imagen a{
+	color: white;
+	font-size: 75px;
+	font-weight: bold;
+	text-decoration: none;
+	margin:0 10px;
+}
+
+.imagen a:nth-child(2){
+	margin: 0;
+	width: 60%;
+	flex-shrink:2;
+}
+@media screen and (max-width: 768px) {
+	.imagen{margin-top: 50%;} 
+	.imagen a:nth-child(2){width: 80%;}
+
+}
+@media screen and (max-width: 960px) {
+	.imagen{margin-top: 45%;} 
+	.imagen a:nth-child(2){width: 70%;}
+
+}
+
+.imagen img{
+	width: 100%;
+	max-width: 100%;
+	border:7px solid #fff;
+	box-sizing:border-box;
+}
+.close-mine{
+	display: block;
+	background: #C0392B;
+	width: 35px;
+	height: 35px;
+	margin: auto;
+	font-weight: bold;
+	text-align: center;
+	text-decoration: none;
+	font-size: 20px;
+	color:#fff;
+	padding: 5px;
+	border-radius: 50%;
+}

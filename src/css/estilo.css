@@ -1,0 +1,246 @@
+html {
+	min-height: 100%;
+	position: relative;
+}
+*{
+	margin: 0;
+	padding: 0;
+
+}
+#single{
+	font-family: 'Khand', sans-serif;
+	font-size: 100%;
+	color: white;
+	-webkit-transition: color .5s ease;
+	-moz-transition: color .5s ease;
+	-ms-transition: color .5s ease;
+	-o-transition: color .5s ease;
+	transition: color .5s ease;
+}
+.title{
+	font-family: 'Khand', sans-serif;
+	font-size:1.4em;
+	color: #006837;
+	padding-left: 0px;
+	font-weight: normal;
+	padding-top: 0px;
+	margin-bottom: 0px;
+	line-height: 1;
+}
+.uvg-title{
+	padding-top: 20px;
+	font-family: 'Khand', sans-serif;
+	font-size: 1.8em;
+	color:#606060; 
+}
+.uvg-title hr{
+	border: 1px solid #E5E5E5;
+	padding: 0px 0px;
+	float: left;
+
+}
+.uvg-title span{
+	color: #006837;
+}
+.navbar-nav>li>a{
+	font-family: 'Khand', sans-serif;
+}
+a{
+	text-decoration: none;
+}
+a:hover{
+	text-decoration: none;
+	color: white;
+}
+
+.header-uvg{
+	padding: 5px;
+	background-color: #10361A;
+	text-align: center;
+	color: white;
+	font-family: 'Khand', sans-serif;
+	font-size: 1.3em;
+}
+.list a{
+	line-height: 25px;
+	text-align: left;
+	color: black;
+	text-decoration: none;
+	font-family: 'Roboto', sans-serif;
+	font-size: 1em;
+	-webkit-transition: color .5s ease;
+	-moz-transition: color .5s ease;
+	-ms-transition: color .5s ease;
+	-o-transition: color .5s ease;
+	transition: color .5s ease;
+}
+.list a:hover{
+	color: #10361A;
+}
+
+
+.Logo {
+	background-color: #10361A;
+	width: 100%;
+	height: 120px;
+}
+
+#imagen {
+	height:100%; 
+	display: block;
+	margin: auto;	
+}
+/*new brand*/
+.fixed-me{
+	transition: all 1s ;
+}
+
+.fixed-me{
+
+	padding: 0px  !important;
+	margin-bottom: 5px;
+	position: fixed;
+	top:0;
+	z-index:888;
+	width: 100%;
+	border-bottom: 3px solid #10361A !important;
+
+
+
+}
+
+.navbar-me {
+	transition: all 1s ;
+}
+.navbar-collapse{
+	text-align: center;
+	border-top-width: 0px;
+
+
+}
+.navbar-toggle{
+	background-color: #222;
+}
+
+
+/* Here starts the Notice Image*/
+
+.notice-img{
+	height: 400px;
+	width: 100%;
+	background-size: cover;
+	background-position: center;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-ms-flex-direction: column;
+	flex-direction: column;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+	transition: 0.3s all;
+	position: relative;
+}
+.notice-img .notice{
+	background-color: rgba(0,0,0,.8);
+	width: 100%;
+	height: 100%;
+	color: white;
+	-webkit-transition: all .5s ease;
+	-moz-transition: all .5s ease;
+	-ms-transition: all .5s ease;
+	-o-transition: all .5s ease;
+	transition: all .5s ease;
+	opacity: 0;
+}
+
+.notice-img:hover .notice{
+	opacity: 1
+}
+
+.notice-title{
+	padding-top: 10%;
+	text-align: center;
+	font-family: 'Khand', sans-serif;
+	font-size: 3rem;
+	padding-top: 15px;
+	opacity: 0;
+}
+.notice-img:hover .notice-title{
+	opacity: 1
+}
+.notice-paragraph{
+	padding-left: 5%;
+	padding-right: 5%;
+	text-align: justify;
+	margin-top: 15px;
+	font-family: 'Khand', sans-serif;
+	font-size: 2rem;
+	opacity: 0;
+	margin-bottom: 1em;
+}
+.notice-img:hover .notice-paragraph{
+	opacity: 1;
+}
+.notice-link {
+	
+	margin-left: 45%;
+
+	font-family: "Khand", sans-serif;
+
+	border: 1px solid #bfbfbf;
+	padding: 0.5em 1em 0.5em;
+	background: white;
+	line-height: 1.11;
+	text-transform: uppercase;
+	text-align: center;
+	-webkit-transition: all .5s ease;
+	-moz-transition: all .5s ease;
+	-ms-transition: all .5s ease;
+	-o-transition: all .5s ease;
+	transition: all .5s ease;
+	opacity: 0;
+	text-decoration: none;
+	color: #909090;
+	font-size: 1em;
+	font-weight: bold;
+}
+.notice-img:hover .notice-link {
+	opacity: 1;
+}
+
+.notice-link:hover{
+	background: #10321A;
+	border: 1px solid #006837;
+	color: white;
+}
+footer {
+	font-family: 'Khand', sans-serif;
+	background-color: #101010;
+
+
+	padding-top: 15px;
+
+
+	background-color: black;
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	height: 45px;
+	color: white;
+}
+footer p{
+	margin-right: 5%;
+	font-size: 1.5em;
+}
+@media screen and (max-width: 850px) {
+  footer{
+  	height: 60px;
+  }
+  }
+
+#uvg-slower{
+	margin-top: 0px;
+}
